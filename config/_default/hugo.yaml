@@ -61,17 +61,23 @@ markup:
   _merge: deep
   goldmark:
     renderer:
-      unsafe: true  # Required for some HugoBlox blocks to render HTML
+      unsafe: true
   highlight:
+    _merge: deep
     lineNos: false
 
 security:
   _merge: deep
   funcs:
+    _merge: deep
     getenv:
       - ^HUGO_
       - ^HB_
 
 sitemap:
   _merge: deep
+
+params:
+  _merge: deep
+
 
