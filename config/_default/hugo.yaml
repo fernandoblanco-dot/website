@@ -57,6 +57,8 @@ imaging:
   hint: picture
 timeout: 600000
 
+# ... (keep everything above taxonomies as is)
+
 taxonomies:
   author: authors
   tag: tags
@@ -84,5 +86,12 @@ sitemap:
 
 params:
   _merge: deep
+
+# Add this section to fix the "nil map" citation error
+module:
+  _merge: deep
+  hugoVersion:
+    extended: true
+    min: '0.140.0'
 
 
