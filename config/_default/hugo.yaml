@@ -51,15 +51,27 @@ imaging:
   anchor: smart
   hint: picture
 timeout: 600000
+
 taxonomies:
   author: authors
   tag: tags
   publication_type: publication_types
+
 markup:
   _merge: deep
+  goldmark:
+    renderer:
+      unsafe: true  # Required for some HugoBlox blocks to render HTML
   highlight:
     lineNos: false
+
 security:
   _merge: deep
+  funcs:
+    getenv:
+      - ^HUGO_
+      - ^HB_
+
 sitemap:
   _merge: deep
+
