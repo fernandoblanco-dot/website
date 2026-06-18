@@ -8,6 +8,11 @@ title: ''
 # Website URL
 baseURL: 'https://fernandoblanco-dot.github.io/website/'
 
+# Disable canonifyURLs to fix subfolder deployment
+canonifyURLs: false
+
+
+
 ############################
 ## LANGUAGE
 ############################
