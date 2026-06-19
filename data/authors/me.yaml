@@ -22,9 +22,7 @@ bio: |
 affiliations:
   - name: CIMCYC 
     url: https://cimcyc.ugr.es
-  - name: Universidad de Granada
-    url: https://ugr.es
-
+    
 links:
   - icon: at-symbol
     url: mailto:fernandoblanco@ugr.es
