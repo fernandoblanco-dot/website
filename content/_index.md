@@ -46,16 +46,16 @@ sections:
     design:
       columns: '1'  
   - block: collection
-    id: papers
+    id: papers # This matches the #papers link in your menu
     content:
       title: Featured Publications
       filters:
         folders:
-          - publications
+          - publications 
         featured_only: false
     design:
-      view: article-grid
-      columns: 2
+      columns: '2'
+      view: citation # Professional academic listing style
   - block: collection
     id: talks
     content:
