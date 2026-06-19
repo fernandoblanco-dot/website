@@ -51,7 +51,7 @@ sections:
       title: Featured Publications
       filters:
         folders:
-          - publications 
+          - publication
         featured_only: false
     design:
       columns: '2'
