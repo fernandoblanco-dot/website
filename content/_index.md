@@ -14,7 +14,7 @@ sections:
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
-        url: uploads/resume.pdf
+        url: https://drive.google.com/file/d/1QSfe0I6j9Nk1VK90o8UPomxzTXxVVYUh/view?usp=sharing
       headings:
         about: ''
         education: ''
@@ -38,11 +38,7 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots. hola!!!🫣
-
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-
-        Please reach out to collaborate 😃
+        My research focuses on human causal reasoning and the cognitive biases (such as causal illusion) that lead us to make irrational decisions. Although this research is primarily theoretical and my methodology is experimental, this line of work has many applications to diverse issues such as pseudoscience, pseudotherapies, and online misinformation. I am currently working on designing strategies to reduce cognitive biases and mitigate their impact.
     design:
       columns: '1'  
   - block: collection
